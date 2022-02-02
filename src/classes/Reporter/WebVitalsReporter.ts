@@ -7,7 +7,7 @@ export class WebVitalsReporter extends Reporter<Metric> {
     super();
   }
 
-  reportMetric(metric: Metric): void {
+  private reportMetric(metric: Metric): void {
     super.report(metric);
   }
 
